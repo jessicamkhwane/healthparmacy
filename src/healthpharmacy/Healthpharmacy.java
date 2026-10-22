@@ -22,6 +22,7 @@ public class LoginFrame extends JFrame {
         c.insets = new Insets(8, 6, 8, 6); c.anchor = GridBagConstraints.WEST;
         c.gridx=0; c.gridy=0; form.add(new JLabel("Username:"), c);
         c.gridx=1; form.add(username, c);
+        c.gridx=1; form.add(username, c);
         c.gridx=0; c.gridy=1; form.add(new JLabel("Password:"), c);
         c.gridx=1; form.add(password, c);
         JButton login = new JButton("Login");
